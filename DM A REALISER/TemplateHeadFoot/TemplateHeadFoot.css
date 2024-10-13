@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header {
+    background: url(../img/bg.jpg);
+  }
+  
+  header .Header {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+  
+  header #head {
+    background-color: rgba(0, 0, 0, 0.14);
+    color: white;
+    text-align: center;
+  }
+  
+  header .First {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+  }
+  
+  header .Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 25px;
+    text-transform: uppercase;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header p {
+    color: rgb(255, 255, 255);
+  }
+  
+  header .Header i a {
+    display: inline-block;
+    list-style: none; /* pour enlever les puces sur IE7 */
+    margin: 10px;
+    width: auto;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  header .Menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+  }
+  
+
+  
+  
+  /*Footer*/
+  
+  footer .TopFooter {
+    background-color: rgb(135, 158, 14);
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.14);
+  }
+  
+  footer .TopFooter i {
+    font-size: 20px;
+  }
+  
+  footer .TopFooter p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+  }
+  
+  /*Bot footer*/
+  
+  footer .BotFooter {
+    background: url(../img/bg.jpg) center;  
+  }
+  
+  footer .BotFooter li a {
+    text-decoration: none;
+    color: white;
+  }
+  footer .BotFooter {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none; /*retirer puce liste*/
+    text-decoration: none; 
+    line-height: 35px;
+    color: white;
+    
+  }
+  
+  Footer .CupOfTea {
+    display: inline-block;
+  }
+  
+  Footer .Commande {
+    display: inline-block;
+  }
+  
+  Footer .SuivezNous {
+    display: inline-block;
+  }
+  
+  footer .BotFooter li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+  }

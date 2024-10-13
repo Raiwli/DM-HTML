@@ -1,0 +1,382 @@
+@font-face {
+  font-family: Amaranth-Regular;
+  src: url(../font/Amaranth-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+body h1 {
+  font-family: Amaranth-Regular;
+}
+
+body h2 {
+  font-family: Amaranth-Regular;
+}
+
+body h3 {
+  font-family: Amaranth-Regular;
+}
+
+body h4 {
+  font-family: Amaranth-Regular;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+/*---HEADER---*/
+
+header {
+  background-image: url(../img/bg.jpg);
+  background-position: center bottom;
+  background-size: cover;
+}
+
+header .Header {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+header .ribbon{
+  width: 100px;
+  position: absolute;
+  right : 0px;
+  top : 0px;
+}
+
+
+
+header .First u{
+  text-decoration: none;
+}
+
+header #head {
+  background-color: rgba(0, 0, 0, 0.14);
+  color: white;
+  text-align: center;
+}
+
+header .First {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+
+header .Menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header p {
+  color: rgb(255, 255, 255);
+}
+
+header .Header li a {
+  display: inline-block;
+  list-style: none;
+  width: auto;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+
+header .Menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+}
+
+/*----------------------Main----------------------*/
+
+main {
+    margin-bottom: 25px;
+    max-width: 1100px;
+   margin : 25px auto;
+
+  }
+
+main .square {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+} 
+
+
+main .top-square {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .mid-square {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .right-square {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+main .select-price {
+    padding-bottom: 35px;
+}
+
+main #price {
+    font-size: 40px;
+}
+
+main .AjoutPanier a{
+    background-color: rgb(176, 144, 103);
+    display: block;
+    text-decoration: none;
+    text-align:center;
+    color: white;
+    padding: 15px;
+    }
+
+main .AjoutEnvie a{
+    text-decoration: none;
+    color: rgb(161, 180, 050) ;
+}
+
+main .AjoutEnvie i{
+    color: pink;
+}
+
+select {
+    padding: 5px;
+}
+
+main .bot-square {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+main .bot-square p{
+padding: 20px;
+}
+
+
+.stars {
+	margin-bottom: 5px;
+    text-align: right;
+}
+
+.stargrey {
+	color: #96969d;
+}
+
+.yellow {
+	color: #fedc18;
+}
+
+.star:hover {
+	cursor: pointer;
+}
+
+/*----------------------Footer----------------------*/
+
+footer .TopFooter {
+  background-color: rgb(135, 158, 14);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.14);
+}
+
+footer .TopFooter i {
+  font-size: 20px;
+}
+
+footer .TopFooter p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+/*Bot footer*/
+
+footer .BotFooter {
+  background: url(../img/bg.jpg) center;
+}
+
+footer .BotFooter li a {
+  text-decoration: none;
+  color: white;
+}
+footer .BotFooter {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  list-style: none; /*retirer puce liste*/
+  text-decoration: none;
+  line-height: 35px;
+  color: white;
+}
+
+Footer .CupOfTea {
+  display: inline-block;
+}
+
+Footer .Commande {
+  display: inline-block;
+}
+
+Footer .SuivezNous {
+  display: inline-block;
+}
+
+footer .BotFooter li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+}
+
+
+/*----------------------Responsive----------------------*/
+@media only screen and (max-width: 1200px) {
+  main {
+    padding-right: 35px;
+  }
+
+  main .mid-square{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main #price{
+    text-align: center;
+  }
+
+  main .bot-square {
+    justify-content: center;
+    text-align: center;
+  }
+
+  }
+
+@media only screen and (max-width: 750px) {
+  /*R Header*/
+  
+  header .ribbon {
+    display : none;
+  }
+
+  header .First {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  header .First p{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+
+  header .First p a{
+    background-color: rgb(135, 158, 14);
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 10px;
+    box-shadow: 4px 0px 20px -5px black;
+  }
+
+  header .First u {
+    display: none;
+  }
+  
+  header .Menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  header .Menu li{
+    margin-top: 15px;
+  }
+  
+  /*R Main*/ 
+
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex-direction: column;
+    }
+
+  
+  /*R Footer*/ 
+  footer .BotFooter {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .BotFooter {
+    background: none;
+    background-color: rgb(150, 176, 017);
+  }
+  
+  footer .BotFooter .CupOfTea{
+    margin-top: 20px;
+    background: none;
+    background-color: rgb(150, 176, 017);
+  }
+  
+  footer .BotFooter .Commande{
+    margin-top: 20px;
+    background: none;
+    background-color: rgb(150, 176, 017);
+  }
+  
+  footer .BotFooter .SuivezNous{
+    margin-top: 20px;
+    background: none;
+    background-color: rgb(150, 176, 017);
+  }
+  
+  footer .TopFooter {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "p l"
+    "f s"
+    "q q" ;
+   }
+  
+   footer .TopFooter .Qualité{
+    grid-area: q;
+   }
+  }

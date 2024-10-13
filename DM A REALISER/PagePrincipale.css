@@ -1,0 +1,448 @@
+@font-face {
+  font-family: Amaranth-Regular;
+  src: url(../font/Amaranth-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+body h1 {
+  font-family: Amaranth-Regular;
+}
+
+body h2 {
+  font-family: Amaranth-Regular;
+}
+
+body h3 {
+  font-family: Amaranth-Regular;
+}
+
+body h4 {
+  font-family: Amaranth-Regular;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+/*---HEADER---*/
+header {
+  background-image: url(../img/bg.jpg);
+  background-position: center bottom;
+  background-size: cover;
+}
+
+header .First u {
+  text-decoration: none;
+}
+
+header .Header {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+header .ribbon {
+  width: 100px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+header #head {
+  background-color: rgba(0, 0, 0, 0.14);
+  color: white;
+  text-align: center;
+}
+
+header .First {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+
+header .Menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header p {
+  color: rgb(255, 255, 255);
+}
+
+header .Header li a {
+  display: inline-block;
+  list-style: none;
+  width: auto;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+
+header .Menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+}
+
+/*-----------------------MAIN-----------------------*/
+
+main {
+  margin-bottom: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+main .SelectionThe {
+  max-width: 1100px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main article {
+  background-color: white; /* Couleur de fond différente pour les articles */
+  width: 100%;
+  padding: 20px;
+}
+
+main h2 span {
+  background-color: white;
+  padding: 10px;
+}
+
+main h2:after {
+  content: "";
+  display: block;
+  border-top: 1px solid rgba(176, 144, 103, 0.3);
+  margin-top: -10px;
+}
+
+main .TheEnVrac h2 {
+  padding-bottom: 10px;
+}
+
+main .TheMisEnAvant {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 25px;
+  text-align: center;
+}
+
+main .TheEnVrac {
+  max-width: 1100px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main .VracMisEnAvant {
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 25px;
+  text-align: center;
+}
+
+main .vrac {
+  padding-top: 10px;
+}
+
+main h2 {
+  text-decoration: none;
+  color: rgb(151, 181, 23);
+}
+
+main .vrac p {
+  padding: 10px;
+}
+
+main .VracMisEnAvant a {
+  background-color: rgb(176, 144, 103);
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+main .best-seller {
+  align-items: center;
+}
+
+.TheMisEnAvant .best-seller img {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.TheMisEnAvant .best-seller:hover img {
+  opacity: 1;
+}
+
+.TheMisEnAvant:hover .best-seller:not(:hover) img {
+  opacity: 0.5;
+}
+
+main h1 {
+  color: rgb(150, 185, 069);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+main .Noel {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+main .Noel {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main #NoelDate {
+  color: rgb(100, 100, 100);
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+
+/*Slider*/
+.slider-wrapper {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: auto;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+/*----------------------Footer----------------------*/
+
+footer .TopFooter {
+  background-color: rgb(135, 158, 14);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.14);
+}
+
+footer .TopFooter i {
+  font-size: 20px;
+}
+
+footer .TopFooter p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+/*Bot footer*/
+
+footer .BotFooter {
+  background: url(../img/bg.jpg) center;
+}
+
+footer .BotFooter li a {
+  text-decoration: none;
+  color: white;
+}
+footer .BotFooter {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  list-style: none; /*retirer puce liste*/
+  text-decoration: none;
+  line-height: 35px;
+  color: white;
+}
+
+Footer .CupOfTea {
+  display: inline-block;
+}
+
+Footer .Commande {
+  display: inline-block;
+}
+
+Footer .SuivezNous {
+  display: inline-block;
+}
+
+footer .BotFooter li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+}
+
+/*----------------------Responsive----------------------*/
+
+@media only screen and (max-width: 1200px) {
+  /*R Header*/
+  header .Menu {
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  header .ribbon {
+    display: none;
+  }
+
+  /*R Main Tab*/
+  main .Noel {
+    display: none;
+  }
+
+  main .slider-wrapper {
+    display: none;
+  }
+  
+  main .VracMisEnAvant {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .TheMisEnAvant {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "n v"
+      "o b"
+      "r r";
+  }
+  main .best-seller:nth-child(5) {
+    grid-area: r;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  /*R Header*/
+  header .ribbon {
+    display: none;
+  }
+
+  header .First {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  header .First p{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+
+  header .First p a{
+    background-color: rgb(135, 158, 14);
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 10px;
+    box-shadow: 4px 0px 20px -5px black;
+  }
+
+  header .First u {
+    display: none;
+  }
+
+  header .Menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+  header .Menu li {
+    margin-top: 15px;
+  }
+
+  /*R Main*/
+
+  /*R Footer*/
+  footer .BotFooter {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .BotFooter {
+    background: none;
+    background-color: rgb(150, 176, 017);
+  }
+
+  footer .BotFooter .CupOfTea {
+    margin-top: 20px;
+    background: none;
+    background-color: rgb(150, 176, 017);
+  }
+
+  footer .BotFooter .Commande {
+    margin-top: 20px;
+    background: none;
+    background-color: rgb(150, 176, 017);
+  }
+
+  footer .BotFooter .SuivezNous {
+    margin-top: 20px;
+    background: none;
+    background-color: rgb(150, 176, 017);
+  }
+
+  footer .TopFooter {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "p l"
+      "f s"
+      "q q";
+  }
+
+  footer .TopFooter .Qualité {
+    grid-area: q;
+  }
+}

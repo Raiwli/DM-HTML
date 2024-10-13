@@ -1,0 +1,420 @@
+@font-face {
+  font-family: Amaranth-Regular;
+  src: url(../font/Amaranth-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+body h1 {
+  font-family: Amaranth-Regular;
+}
+
+body h2 {
+  font-family: Amaranth-Regular;
+}
+
+body h3 {
+  font-family: Amaranth-Regular;
+}
+
+body h4 {
+  font-family: Amaranth-Regular;
+}
+
+/*---HEADER---*/
+
+header {
+  background-image: url(../img/bg.jpg);
+  background-position: center bottom;
+  background-size: cover;
+}
+
+header .Header {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+header .ribbon{
+  width: 100px;
+  position: absolute;
+  right : 0px;
+  top : 0px;
+}
+
+header .First u{
+  text-decoration: none;
+}
+
+header #head {
+  background-color: rgba(0, 0, 0, 0.14);
+  color: white;
+  text-align: center;
+}
+
+header .First {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+
+header .Menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header p {
+  color: rgb(255, 255, 255);
+}
+
+header .Header li a {
+  display: inline-block;
+  list-style: none;
+  width: auto;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+
+header .Menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  
+}
+
+/*-----------------------MAIN-----------------------*/
+
+main {
+  margin-bottom: 25px;
+  max-width: 1100px;
+ margin : 0 auto;
+ margin-bottom: 20px;
+ color: rgb(105, 100, 105);
+}
+
+main h2 {
+  text-transform: none;
+  color: rgb(151, 181, 23);
+}
+
+main .LesFondateurs {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+main .Top {
+  display: flex; 
+  flex-direction: row;
+  padding: 20px;
+}
+
+main #TopTxt {
+  display: flex; 
+  flex-direction: column;
+}
+
+
+main article {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+main p {
+  padding: 10px;
+}
+
+main .Xavier img {
+  float: right;
+  padding: 20px;
+  position: relative;
+}
+
+main .Amelie img {
+  float: left;
+  padding: 20px;
+  position: relative;
+}
+
+main .Amelie {
+  padding-top: 25px;
+}
+
+main .Xavier{
+  padding-top: 25px;
+}
+
+main .NotreConcept {
+  border-top: 0;
+  padding: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+main .NotreConcept p{
+  padding-bottom: 25px;
+}
+
+main .GreenSquare {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+background-color: rgb(234, 239, 207);
+
+}
+
+main .GreenSquare p{
+  padding-top: 20px;
+}
+
+main .GreenSquare h3{
+  padding-top: 20px;
+}
+
+main .PConcept {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+main .Teilliere {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+main .Coeur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+main .Smile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+main .Teilliere img {
+  width: 120px;
+}
+
+main .Coeur img {
+  width: 120px;
+}
+
+main .Smile img {
+  width: 120px;
+}
+
+main .LesFondateurs h2:after{
+  content: "";
+  display: block;
+  border-top: 1px solid rgba(176,144,103,0.3);
+  margin-top: -10px;
+}
+main .LesFondateurs h2 span{
+  color: #9EAE0F;
+  background-color: white;
+  padding: 10px;
+}
+
+
+/*----------------------Footer----------------------*/
+
+footer .TopFooter {
+  background-color: rgb(135, 158, 14);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.14);
+}
+
+footer .TopFooter i {
+  font-size: 20px;
+}
+
+footer .TopFooter p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+/*Bot footer*/
+
+footer .BotFooter {
+  background: url(../img/bg.jpg) center / cover;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+footer .BotFooter li a {
+  text-decoration: none;
+  color: white;
+}
+footer .BotFooter {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  line-height: 35px;
+  color: white;
+}
+
+Footer .CupOfTea {
+  display: inline-block;
+}
+
+Footer .Commande {
+  display: inline-block;
+}
+
+Footer .SuivezNous {
+  display: inline-block;
+}
+
+footer .BotFooter li a{
+  display: inline-block;
+  list-style: none;
+  width: auto;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+
+footer .BotFooter li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+}
+
+
+/*----------------------Responsive----------------------*/
+@media only screen and (max-width: 1200px) {
+main .GreenSquare {
+  display: flex;
+  flex-direction: column;
+}
+}
+
+
+@media only screen and (max-width: 750px) {
+  /*R Header*/
+  
+  header .ribbon {
+    display : none;
+  }
+  
+  header .First {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  header .First p{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+
+  header .First p a{
+    background-color: rgb(135, 158, 14);
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 10px;
+    box-shadow: 4px 0px 20px -5px black;
+  }
+  header .First u {
+    display: none;
+  }
+  
+  header .Menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  header .Menu li{
+    margin-top: 15px;
+  }
+  
+  /*R Main*/ 
+
+  main .Amelie{
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .Xavier{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /*R Footer*/ 
+  footer .BotFooter {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .BotFooter {
+    background: none;
+    background-color: rgb(150, 176, 017);
+  }
+  
+  footer .BotFooter .CupOfTea{
+    margin-top: 20px;
+    background: none;
+    background-color: rgb(150, 176, 017);
+  }
+  
+  footer .BotFooter .Commande{
+    margin-top: 20px;
+    background: none;
+    background-color: rgb(150, 176, 017);
+  }
+  
+  footer .BotFooter .SuivezNous{
+    margin-top: 20px;
+    background: none;
+    background-color: rgb(150, 176, 017);
+  }
+  
+  footer .TopFooter {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "p l"
+    "f s"
+    "q q" ;
+   }
+  
+   footer .TopFooter .Qualité{
+    grid-area: q;
+   }
+  }
